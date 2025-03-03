@@ -36,7 +36,9 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had the most challenges with formatting the cards into a grid. My information cards were stuck together and echoing due to rule overrides and padding errors, which I learned through debugging.
+
+
 
 ## License
 
