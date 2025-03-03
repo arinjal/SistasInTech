@@ -1,0 +1,55 @@
+.community-board {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.event-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust as needed */
+  grid-gap: 20px; 
+}
+
+.event-card {
+  border: 3px solid #333;
+  margin: auto;
+  text-align: center;
+  font-family: 'Times New Roman';
+}
+
+.event-card img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  margin-top: 8px;
+}
+
+.event-card h2 {
+  margin-top: 0;
+}
+
+.event-card p {
+  margin-bottom: 8px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+.event-card button {
+  font-family: 'Times New Roman';
+  background-color: rgb(0, 0, 0);
+  color: #f6f6f6;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.event-card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 30px rgb(148, 87, 18);
+}
+
+.event-card button:hover {
+  background-color: rgb(0, 0, 0);
+  box-shadow: rgb(0, 0, 0);
+}
